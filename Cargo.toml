@@ -1,0 +1,18 @@
+[package]
+name = "pnet_show"
+version = "0.1.0"
+edition = "2024"
+license = "Apache-2.0"
+readme = "./README.md"
+authors = ["Tobias Müller <git@tsmr.eu>"]
+description = "Derive a `show` function for pnet_packet's to display the struct similar to scapy."
+repository = "https://github.com/otsmr/pnet_show"
+categories = ["network-programming"]
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = "2.0.0"
+quote = "1.0"
+proc-macro2 = "1.0"
