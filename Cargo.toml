@@ -1,11 +1,11 @@
 [package]
 name = "pnet_show"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 license = "Apache-2.0"
 readme = "./README.md"
 authors = ["Tobias Müller <git@tsmr.eu>"]
-description = "Derive a `show` function for pnet_packet's to display the struct similar to scapy."
+description = "Derive a show function for pnet_packet's to display the struct similar to scapy."
 repository = "https://github.com/otsmr/pnet_show"
 categories = ["network-programming"]
 
